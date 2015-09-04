@@ -1,10 +1,10 @@
 #
 # This policy configuration will be used by all products that
-# inherit from CM
+# inherit from jedi
 #
 
 BOARD_SEPOLICY_DIRS += \
-    vendor/pa/sepolicy
+    vendor/jedi/sepolicy
 
 BOARD_SEPOLICY_UNION += \
     app.te \
