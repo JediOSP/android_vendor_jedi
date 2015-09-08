@@ -4,6 +4,5 @@ export VERSION_LONG := $(VENDOR_LONG) --- $(ROM_VERSION_MAJOR).$(ROM_VERSION_MIN
 export ROM_VERSION := $(VERSION)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.display.id=$(VERSION_LONG)\
     ro.modversion=$(ROM_VERSION) \
     ro.$(VENDOR).version=$(VERSION)
