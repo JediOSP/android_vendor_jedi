@@ -14,7 +14,7 @@
 
 # Check for target product
 
-ifeq (pa_vs985,$(TARGET_PRODUCT))
+ifeq (jedi_vs985,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := jedi_xxhdpi
@@ -26,7 +26,7 @@ PREFS_FROM_SOURCE ?= false
 $(call inherit-product, vendor/jedi/configs/telephony.mk)
 
 # Include common configuration
-include vendor/jedi/main.m
+include vendor/jedi/main.mk
 
 # Inherit device configuration
 $(call inherit-product, device/lge/vs985/vs985.mk)
