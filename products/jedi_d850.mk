@@ -17,7 +17,7 @@
 ifeq (jedi_d850,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_xxhdpi
+OVERLAY_TARGET := jedi_xxhdpi
 
 # Build paprefs from sources
 PREFS_FROM_SOURCE ?= false
