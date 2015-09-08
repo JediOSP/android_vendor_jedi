@@ -12,10 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
+# ATT LG G3
 ifeq (jedi_d850,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/jedi_d850.mk
 endif
+
+# Verizon LG G3
 ifeq (jedi_vs985,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/jedi_vs985.mk
 endif
+

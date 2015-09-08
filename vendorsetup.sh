@@ -1,1 +1,2 @@
 add_lunch_combo jedi_d850-userdebug
+add_lunch_combo jedi_vs985-userdebug
