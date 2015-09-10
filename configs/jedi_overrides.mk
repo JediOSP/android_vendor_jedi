@@ -19,7 +19,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/jedi/prebuilt/apk/Superuser.apk:system/app/Superuser/Superuser.apk \
     vendor/jedi/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
-    vendor/jedi/prebuilt/bin/99-supersu.sh:system/addon.d/99-supersu.sh \
     vendor/jedi/prebuilt/xbin/daemonsu:system/xbin/daemonsu \
     vendor/jedi/prebuilt/xbin/su:system/xbin/su
 
