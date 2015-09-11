@@ -14,8 +14,8 @@
 
 # XXXHDPI Devices
 
-ifneq ($(filter jedi_d850 jedi_vs985,$(TARGET_PRODUCT)),)
-    PRODUCT_COPY_FILES += \
-        vendor/jedi/prebuilt/bootanimation/2560x1600.zip:system/media/bootanimation.zip
-endif
+# ifneq ($(filter jedi_d850 jedi_vs985,$(TARGET_PRODUCT)),)
+#     PRODUCT_COPY_FILES += \
+#        vendor/jedi/prebuilt/bootanimation/2560x1600.zip:system/media/bootanimation.zip
+# endif
 
