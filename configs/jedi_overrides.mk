@@ -15,11 +15,8 @@
 PRODUCT_PACKAGES += \
     busybox
 
-# Supersu support
+# SuperSu support
 PRODUCT_COPY_FILES += \
-    vendor/jedi/prebuilt/apk/Superuser.apk:system/app/Superuser/Superuser.apk \
     vendor/jedi/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
-    vendor/jedi/prebuilt/etc/install-recovery.sh:system/etc/install-recovery.sh \
-    vendor/jedi/prebuilt/xbin/daemonsu:system/xbin/daemonsu \
-    vendor/jedi/prebuilt/xbin/su:system/xbin/su
-
+    vendor/jedi/prebuilt/system/addon.d/99-supersu.sh:system/addon.d/99-supersu.sh \
+    vendor/jedi/prebuilt/system/addon.d/SuperSU.zip:system/addon.d/SuperSU.zip
