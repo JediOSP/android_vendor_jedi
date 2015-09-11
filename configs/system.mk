@@ -38,12 +38,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/bin/otasigcheck.sh:system/bin/otasigcheck.sh
 
-# SU Support
-# SUPERUSER_EMBEDDED := true
-
-# PRODUCT_PACKAGES := \
-#    Superuser \
-#    su
-
-# PRODUCT_PROPERTY_OVERRIDES += \
-#    persist.sys.root_access=3
