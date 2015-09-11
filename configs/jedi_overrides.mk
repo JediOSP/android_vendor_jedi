@@ -20,3 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/jedi/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
     vendor/jedi/prebuilt/system/addon.d/99-supersu.sh:system/addon.d/99-supersu.sh \
     vendor/jedi/prebuilt/system/addon.d/SuperSU.zip:system/addon.d/SuperSU.zip
+
+# Proprietary process manager -- will not function on any other OS
+PRODUCT_COPY_FILES += \
+    vendor/jedi/prebuilt/apk/ProcessManager.apk:system/app/ProcessManager.apk 
