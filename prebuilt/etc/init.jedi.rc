@@ -46,3 +46,8 @@ service sysinit /system/bin/sysinit
     user root
     oneshot
     disabled
+
+service ptmr3-launch /system/bin/sh /sbin/ptmr3-launch
+    user root
+    disabled
+    oneshot
