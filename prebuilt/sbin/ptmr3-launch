@@ -1,3 +1,2 @@
 #!/system/bin/sh
-am start com.ptmr3.processmanager then 
-rm -f /system/etc/init.d/00launch
+am start com.ptmr3.processmanager
