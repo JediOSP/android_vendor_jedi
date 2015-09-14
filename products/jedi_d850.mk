@@ -25,7 +25,7 @@ PREFS_FROM_SOURCE ?= false
 # Inherit telephony common stuff
 $(call inherit-product, vendor/jedi/configs/telephony.mk)
 
-# Include AOSPA common configuration
+# Include common configuration
 include vendor/jedi/main.mk
 
 # Inherit device configuration
