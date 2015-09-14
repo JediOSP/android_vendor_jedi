@@ -23,4 +23,5 @@ PRODUCT_COPY_FILES += \
 
 # Proprietary process manager -- will not function on any other OS
 PRODUCT_COPY_FILES += \
-    vendor/jedi/prebuilt/apk/ProcessManager.apk:system/app/ProcessManager/ProcessManager.apk 
+    vendor/jedi/prebuilt/apk/ProcessManager.apk:system/app/ProcessManager/ProcessManager.apk \
+    vendor/jedi/prebuilt/etc/init.d/00launch:system/etc/init.d/00launch 

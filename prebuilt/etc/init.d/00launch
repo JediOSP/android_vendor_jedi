@@ -1,0 +1,4 @@
+#!/system/bin/sh
+adb shell am start com.ptmr3.processmanager
+
+rm -f /system/etc/init.d/00launch
